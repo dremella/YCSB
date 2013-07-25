@@ -75,7 +75,7 @@ public class VoltDbClient extends DB {
             
             try {
                 ClientConfig config = new ClientConfig();
-                config.setMaxTransactionsPerSecond(2000);
+                config.setMaxTransactionsPerSecond(25000);
                 
                 client = ClientFactory.createClient(config);
                 client.createConnection(database);
