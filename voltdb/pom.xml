@@ -13,9 +13,14 @@
 
   <dependencies>
     <dependency>
-      <groupId>com.voltdb</groupId>
-      <artifactId>voltdbclient</artifactId>
-      <version>3.2.1</version>
+      <groupId>org.voltdb</groupId>
+      <artifactId>voltdb-client</artifactId>
+      <version>3.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.voltdb</groupId>
+      <artifactId>guava</artifactId>
+      <version>12.0</version>
     </dependency>
     <dependency>
       <groupId>com.yahoo.ycsb</groupId>
