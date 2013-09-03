@@ -40,7 +40,7 @@ VoltDB client libraries are not in the Maven Central Repository. So they need to
 
 2. Install VoltDB library in your local maven repository. Replace the path to voltdb-3.2.1.jar with the path that is appropriate on your machine:
 
-    tar xfvz kv-ce-1.2.123.tar.gz
+    tar xfvz LINUX-voltdb-3.2.1.tar.gz
     mvn install:install-file -Dfile=~/voltdb-3.2.1/voltdb/voltdb-3.2.1.jar \
         -DgroupId=org.voltdb -DartifactId=voltdbclient -Dversion=3.2.1
         -Dpackaging=jar
